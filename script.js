@@ -43,22 +43,3 @@ function calculateAge(){
 function getDaysInMonth(year, month){
     return new Date(year, month, 0).getDate();
 }
-
-// let userInput = document.getElementById("date");
-// let result = document.getElementById("result");
-
-// function calculateAge() {
-//     let birthDate = new Date(userInput.value);
-
-//     let today = new Date();
-
-//     let diff = today - birthDate;
-
-//     let ageDate = new Date(diff);
-
-//     let years = ageDate.getUTCFullYear() - 1970;
-//     let months = ageDate.getUTCMonth();
-//     let days = ageDate.getUTCDate() - 1;
-
-//     result.innerHTML = `You are <span>${years}</span> years, <span>${months}</span> months, and <span>${days}</span> days old`;
-// }
